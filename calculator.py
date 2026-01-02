@@ -5,7 +5,7 @@ from mod_division import *
 
 
 # Рефакторинг кода
-def run_calculator():
+def run_calculator(): # Основная функция калькулятора
     while True:
         num1, num2, operator = input_data()
 
